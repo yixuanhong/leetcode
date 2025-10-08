@@ -1,4 +1,4 @@
-def two_sum(numbers: list[int], target: int):
+def two_sum(numbers: list[int], target: int) -> list[int]:
     left, right = 0, len(numbers) - 1
 
     while left < right:

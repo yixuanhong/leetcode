@@ -1,4 +1,4 @@
-def product_except_self(nums: list[int]):
+def product_except_self(nums: list[int]) -> list[int]:
     n = len(nums)
     answer = [1] * n
 
